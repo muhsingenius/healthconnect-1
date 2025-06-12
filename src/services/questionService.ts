@@ -133,7 +133,7 @@ export class QuestionService {
 
       // Calculate final image URLs
       const currentImageUrls = existingQuestion.image_urls || [];
-      const remainingImageUrls = currentImageUrls.filter(url => 
+      const remainingImageUrls = currentImageUrls.filter((url: string) => 
         !data.imagesToDelete?.includes(url)
       );
       const finalImageUrls = [...remainingImageUrls, ...newImageUrls];

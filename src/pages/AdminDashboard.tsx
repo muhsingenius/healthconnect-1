@@ -199,7 +199,7 @@ export function AdminDashboard() {
                       <div className="flex justify-between items-start">
                         <div className="flex-1">
                           <div className="flex items-center space-x-2 mb-2">
-                            <Badge variant={content.type === 'question' ? 'primary' : 'secondary'}>
+                            <Badge variant={content.type === 'question' ? 'primary' : 'neutral'}>
                               {content.type}
                             </Badge>
                             <Badge variant="warning">Flagged</Badge>

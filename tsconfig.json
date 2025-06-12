@@ -1,0 +1,20 @@
+
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "noEmit": true,
+    "types": ["vite/client"],
+    "allowImportingTsExtensions": false, // unless you're using .ts/.tsx in imports
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

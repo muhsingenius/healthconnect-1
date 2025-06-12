@@ -107,8 +107,8 @@ export function ProfileEditPage() {
 
       const updateData: UpdateProfileData = {
         full_name: formData.full_name.trim(),
-        phone: formData.phone.trim() || null,
-        bio: formData.bio.trim() || null,
+        phone: formData.phone.trim() || undefined,
+        bio: formData.bio.trim() || undefined,
       };
 
       // Add doctor-specific fields
