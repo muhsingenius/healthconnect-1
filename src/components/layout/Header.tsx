@@ -58,6 +58,13 @@ export function Header() {
             </div>
           ) : (
             <div className="flex items-center space-x-3">
+              <Link to="/">
+                 <img
+                src="https://github.com/kickiniteasy/bolt-hackathon-badge/blob/main/src/public/bolt-badge/black_circle_360x360/black_circle_360x360.png?raw=true"
+                alt="Doctor consultation"
+                className=" w-16"
+              />
+              </Link>
               <Link to="/doctor-signup" className="text-gray-600 hover:text-gray-900 transition-colors font-medium">
                 <div className="flex items-center">
                   <Stethoscope className="h-4 w-4 mr-1" />
